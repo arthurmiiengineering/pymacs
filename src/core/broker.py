@@ -36,7 +36,7 @@ class Broker:
         self.queue.clear()
         response = list()
         for event, kwargs in queue:
-            respond.extend(
+            response.extend(
                 [handler(event=event, **kwargs) for handler in self.handlers[event]]
             )
         return response
