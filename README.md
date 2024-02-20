@@ -1,6 +1,6 @@
 # Pyed: pythonic tool system
 
-## An ED style line based text editor for the terminal, written in pure python.
+## An extension driven tool development system, written in pure python.
 
 This is a simple tool system for the terminal. Powered by a simple extension system, it is meant to be simple, reliable, and extensible. This is achieved with a simple prompt as a base and a data driven config system which can load any modules from the extensions folder via the config settings. Its main extension as of now is a line editor like ED, the standard text editor for linux.
 
