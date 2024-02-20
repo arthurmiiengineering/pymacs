@@ -28,7 +28,8 @@ def main(data) -> None:
     schedule.run(Routine.FINISH, data)
 
 
+app_data = AppData('cmd: ')
 if __name__ == '__main__':
     '''Load extensions and run the application.'''
     extensions.load()
-    main(AppData('cmd: '))
+    main(data)
