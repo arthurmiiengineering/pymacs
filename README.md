@@ -1,4 +1,4 @@
-# Pyed: pythonic tool system
+# pymacs: pythonic tool system
 
 ## An extension driven tool development system, written in pure python.
 

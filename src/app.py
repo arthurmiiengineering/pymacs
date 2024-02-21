@@ -32,4 +32,4 @@ app_data = AppData('cmd: ')
 if __name__ == '__main__':
     '''Load extensions and run the application.'''
     extensions.load()
-    main(data)
+    main(app_data)

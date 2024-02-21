@@ -8,6 +8,9 @@ from dataclasses import dataclass, field
 @dataclass
 class Broker:
     '''An event handler, which manages a list of handlers, and a queue.'''
+    class Event(SimpleNamespace):
+        pass
+
     def __post_init__(self):
         self.handlers = defaultdict(list)
         self.queue = deque()
