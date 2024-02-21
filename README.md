@@ -18,7 +18,7 @@ This is a simple tool system for the terminal. Powered by a simple extension sys
 - more built in functionality extensions
 
 ## Structure
-README.md *<- you are here!*
+- README.md *<- you are here!*
 - src/
 	- core/
 		- broker.py
